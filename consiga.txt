@@ -1,0 +1,31 @@
+
+-Nombre del disco.
+-Autor o banda del disco.
+-Código numérico único del disco:
+-Si el usuario ingresa un código numérico que ya fue cargado, se deberá pedir otro código 
+(hasta ingresar uno que no haya sido utilizado anteriormente).
+-Todas las pistas del disco, donde cada pista tiene un nombre y una duración:
+  -La cantidad de pistas a ingresar NO debe ser fija.
+  -No se debe preguntar cuántas pistas hay que cargar, el dato se desconoce.
+  -Al finalizar la carga de una pista, se debe confirmar si se desea ingresar otra más.
+  -Cuando el usuario decide dejar de cargar pistas, finaliza la acción de la función.
+
+-Al hacer clic en el botón "Mostrar discos", la función Mostrar debe mostrar
+cada disco con su nombre, autor/banda, código único 
+y todas las pistas con sus respectivos datos: nombre y duración.
+-Hay que destacar visualmente con rojo las duraciones mayores a 180.
+
+
+
+-Usen al menos otras dos (2) funciones a lo largo de todo el proceso:
+  Deben recibir argumentos y/o devolver valores para que cuenten como funciones para sumar puntos.
+-Muestren un mensaje (con el método alert) ante cada error cometido (haciendo referencia a las validaciones).
+-Informen cada vez que se muestran los discos, cuántos se llevan cargados (contador).
+
+-Informen por cada disco:
+   -La cantidad de pistas que tiene cada disco.
+   -La duración total del disco.
+   -El promedio de duración de cada disco.
+   -La pista con mayor duración de cada disco.
+   -Que se pueda mostrar la información de un disco específico mediante su código numérico.(buscador)
+Formateen toda la muestra de datos con código HTML + CSS.

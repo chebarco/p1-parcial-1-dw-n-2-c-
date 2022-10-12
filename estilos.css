@@ -1,0 +1,269 @@
+@font-face {
+  font-family: "LemonMilk";
+  src: url(lemon_milk/LEMONMILK-Bold.otf);
+}
+@font-face {
+  font-family: "LemonMilk-Regular";
+  src: url(lemon_milk/LEMONMILK-Regular.otf);
+}
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  line-height: 1;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: rgb(247, 247, 213);
+}
+
+header {
+  background-color: #b0f2c2;
+  height: 90px;
+}
+
+h1 {
+  font-family: "LemonMilk";
+  font-size: 20px;
+  text-align: center;
+  padding-top: 35px;
+  color: #fa5f49;
+}
+
+button {
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 50px;
+  color: #95b8f6;
+}
+
+.p {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: grey;
+}
+br {
+  margin-top: 15px;
+}
+/*DISCOS*/
+
+.discos {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.botones {
+  margin-top: 20px;
+  height: 30px;
+  font-size: 18px;
+}
+
+.botones-info {
+  background-color: #bc98f3;
+  border: none;
+  font-size: 16px;
+  height: 20px;
+  border-radius: 5px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  height: 30px;
+  font-weight: bold;
+
+  margin-top: 10px;
+}
+
+.boton {
+  margin-left: 110px;
+  margin-top: 40px;
+  text-align: center;
+  border: none;
+  width: 150px;
+  height: 40px;
+  border-radius: 15px;
+  font-size: 15px;
+  background-color: pink;
+  font-weight: bold;
+}
+
+.discos-fotos h2 {
+  margin-top: 100px;
+  font-size: 30px;
+  text-align: left;
+  margin-left: 20px;
+  color: black;
+  margin-bottom: 10px;
+
+}
+
+.container-fotos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+
+.discos-fotos p {
+  margin-bottom: 30px;
+  margin-left: 20px;
+  font-size: 18px;
+  color: grey;
+}
+.discofotos {
+  width: 95%;
+  margin-bottom: 20px;
+}
+
+
+
+
+.rocola{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border: #95b8f6 solid;
+  border-radius: 5px;
+  width: 300px;
+  
+}
+
+.titulo-nombre{
+  font-size: 18px;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.rocolala{
+  width: 50%;
+  margin-left: 70px;
+  margin-top: 50px;
+
+}
+
+
+
+
+/*---------------------RESPONSIVE WEB DESKTOP-------------------------*/
+
+@media (min-width: 620px) {
+  body {
+    background-color: rgb(180, 177, 177);
+  }
+  header {
+    background-color: black;
+    height: 90px;
+  }
+  h2 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+    color: black;
+  }
+  h1 {
+    font-family: "LemonMilk";
+    font-size: 20px;
+    text-align: center;
+    padding-top: 25px;
+    color: white;
+  }
+  .box {
+    margin-top: 50px;
+    border: #95b8f6 solid;
+    border-radius: 40px;
+    padding-bottom: 100px;
+    background-color: beige;
+  }
+  .discos {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .botones-info {
+    background-color: #b0f2c2;
+    color: #fa34df;
+    font-size: 15px;
+    margin-right: 10px;
+  }
+  .botones-info {
+    margin-top: 20px;
+    height: 30px;
+    width: 200px;
+  }
+
+
+}
+
+@media (min-width: 820px) {
+  .box {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: azure;
+  }
+  .container-fotos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .discos-fotos {
+    margin-top: 50px;
+    background-color: gray;
+  }
+  .discos-fotos h2 {
+    text-align: left;
+    font-size: 35px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    color: white;
+    padding-top: 40px;
+  }
+  .discos-fotos p {
+    margin-bottom: 30px;
+    margin-left: 20px;
+    font-size: 20px;
+    color: white;
+  }
+  .discofotos {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+
+}
